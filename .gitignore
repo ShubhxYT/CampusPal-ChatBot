@@ -9,10 +9,16 @@ wheels/
 # Virtual environments
 .venv
 .linux_transformer
+.vscode
 Keras-Shit
 data
 college_data
-.vscode
+fine-tuned-gemma3
+chroma_db
+
+train.py
+load.py
+image2.jpg
 tet.py
 test.py
 test.jsonl
