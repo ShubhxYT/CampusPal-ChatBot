@@ -45,7 +45,8 @@ uv venv activate
 4. **Install dependencies**
 
 ```bash
-uv pip install torch==2.2.1 transformers==4.37.2 datasets==2.16.1 peft==0.8.2 bitsandbytes==0.41.1 tqdm huggingface_hub
+uv pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu126
+uv sync
 ```
 
 ## Dataset Preparation
